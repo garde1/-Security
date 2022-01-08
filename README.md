@@ -1,7 +1,6 @@
-# security and mod by
+# security and mod by POLAT BOT
 
-Arez
-Parsa
+# v13
 
 
 دانێ(TYPE TOKEN)تۆکێـنەکەت لە بەشی
