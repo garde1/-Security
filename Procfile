@@ -1,1 +1,1 @@
-worker: node arez.js
+worker: node polat.js
