@@ -18,7 +18,7 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "f/";
+const prefix = "/";
 const cooldown = new Set();
 const cdtime = 5;
 client.login("TYPE TOKEN");
@@ -29,7 +29,7 @@ client.on("ready", () => {
  client.on("ready", () => {
 setInterval(() => {
   client.user.setActivity(
-  `${prefix}help | Made By Arez`,
+  `${prefix}help | Made By POLAT BOT`,
   );
 }, 2000);
 })
@@ -60,7 +60,7 @@ __**Moderation Commands**__
 > unban , mute , unmute , bans**
 
 `;
-    var addserver = `https://discord.com/api/oauth2/authorize?client_id=764487416748310570&permissions=8&scope=bot`;
+    var addserver = ``;
     var SUPPORT = `TYPE LINK YOUR SERVER ❤`;
     var WEBSITE = `TYPE YOUR WEB`;
     var EMBED = new Discord.MessageEmbed()
@@ -609,7 +609,7 @@ const antiSpam = new AntiSpam({
       client.on("message", message => {
   if (message.content.startsWith(prefix + "support")) {
     const embed = new Discord.MessageEmbed()
-      .setDescription(`[Thank you for support](https://discord.gg/Zhwg47uFun)`)
+      .setDescription(`[Thank you for support]()`)
       .setTimestamp()
       .setFooter(`By: ${message.author.tag}`)
       .setAuthor(client.user.username)
@@ -677,11 +677,11 @@ client.on("message", message => {
     config[message.guild.id] = {
       banLimit: 2,
       chaDelLimit: 2,
-      roleDelLimit: 2,
-      kickLimits: 2,
-      chaCrLimit: 2,
-      roleCrLimits: 2,
-      time: 30
+      roleDelLimit: 1,
+      kickLimits: 1,
+      chaCrLimit: 1,
+      roleCrLimits: 1,
+      time: 0
     }
   if (message.content.startsWith(prefix + "anti")) {
     if (message.author.id !== message.guild.ownerID) 
@@ -1591,4 +1591,4 @@ client.on("guildMemberAdd", async member => {
   .setFooter('Thanks For Joining!')
   channel.send(WELCOME)
 })
-Code By ᖴ𝗂𝗂᙭#1000
+Code By POLAT BOT
