@@ -1,0 +1,57 @@
+Skip to content
+
+PullsIssues
+
+Marketplace
+
+Explore
+
+ 
+
+￼ 
+
+garde1/-SecurityPublic
+
+ Unwatch 1 
+
+Fork 0
+
+ Star 0
+
+Code
+
+Issues
+
+Pull requests
+
+Projects
+
+Wiki
+
+Security
+
+Insights
+
+Settings
+
+ main 
+
+-Security/configg.json
+
+Go to file
+
+￼
+
+polatbot12 Add files via upload
+
+Latest commit b7369f5 2 days ago History
+
+ 1 contributor
+
+1675 lines (1675 sloc)  31.8 KB
+
+RawBlame
+
+  
+
+{ "805961536522289152": { "banLimit": 2, "chaDelLimit": 2, "roleDelLimit": 2, "kickLimits": 2, "chaCrLimit": 2, "roleCrLimits": 2, "time": 30 }, "761676358093897778": { "banLimit": 2, "chaDelLimit": 2, "roleDelLimit": 2, "kickLimits": 2, "chaCrLimit": 2, "roleCrLimits": 2, "time": 30 }, "690309670304481361": { "banLimit": 2, "chaDelLimit": 2, "roleDelLimit": 2, "kickLimits": 2, "chaCrLimit": 2, "roleCrLimits": 2, "time": 30 }, "764826782889017355": { "banLimit": 2, "chaDelLimit": 2, "roleDelLimit": 2, "kickLimits": 2, "chaCrLimit": 2, "roleCrLimits": 2, "time": 30 }, "678472297958342698": { "banLimit": 2, "chaDelLimit": 2, "roleDelLimit": 2, "kickLimits": 2, "chaCrLimit": 2, "roleCrLimits": 2, "time": 30 }, "682620624358735988": {
